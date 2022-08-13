@@ -1,26 +1,24 @@
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import Navbar from "./components/navbar";
+import Center from "./components/center";
+import Footer from "./components/footer";
+import Form from "./components/form"
 
-// import './App.css';
-
-function App() {
+const App=()=>{
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+  <>
+  <h1 >hello from the parent component</h1>
+  
+  
 
-      <h1>hi ...abhay verma here</h1>
-    </div>
+  <Navbar/>
+  <Form/>
+ 
+
+  <Center/>
+  <Footer/>
+  </>
   );
 }
 
