@@ -1,19 +1,17 @@
 import React from "react";
 
-// import Centerc from "./centerc"/
 const center = () =>{
     return(
         <>
-        <center><h1>hello from center</h1></center>
-        <strong>five best player in the world are:=</strong>
-
-            <ol type="A">
-               <li>Rohit sharma</li>
-               <li>Virat kohli</li>
-               <li>MS dhoni</li>
-               <li>Jasprit bumrah</li>
-               <li>Ab deviliers</li>
-            </ol>
+       
+            <div className="card" style={{ width: "18rem" }}>
+  <img src="https://picsum.photos/200" className="card-img-top" alt="abhay"/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
         
 
         
