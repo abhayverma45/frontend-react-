@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Home=()=>{
     const[counter,setcounter]=useState(0);
-    const tip =()=>{
+    const start =()=>{
         if(counter ===9){
             alert("congratulations:achived your target");
         }
@@ -11,7 +11,7 @@ const Home=()=>{
         }
         setcounter(counter+1);
     };
-    const tok=()=>{
+    const stop=()=>{
         setcounter(counter-1)
     }
 
@@ -19,12 +19,17 @@ const Home=()=>{
 
     return(
         <>
-        <h1>target:<span>10</span></h1>
-        <h1>current counter <span>{counter}</span></h1>
+        <div className="style_in_inc">
+        <h1 >target : <span style={{color:"white"}}>10</span></h1>
+        <hr/>
+        <h1>current counter : <span style={{color:"white"}}>{counter}</span></h1>
+        <hr/>
+        <br/>
+        <br/>
 
         <div className="row">
             <div className="col">
-                <button className="btn btn-success" onClick={()=>tip()}>start timer</button>
+                <button className="btn btn-success" onClick={()=>start()}>count ++</button>
             </div>
         </div>
 
@@ -34,10 +39,11 @@ const Home=()=>{
 
 
         <div className="col">
-        <button className="btn btn-success" onClick={()=>tok()}>
-            stop timer
+        <button className="btn btn-success" onClick={()=>stop()}>
+            count --
         </button>
 
+        </div>
         </div>
 
 
