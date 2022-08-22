@@ -11,7 +11,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 // import Generatepass from "./components/generatepass"
 // import Practice2 from "./components/practice2"
 // import CondComp from "./components/condComp"
-import Wishing from "./components/wish_acc";
+// import Wishing from "./components/wish_acc";
+// import Arraymap from "./components/arraymap";
+import Form from "./components/form_";
 
 const App=()=>{
 
@@ -22,7 +24,9 @@ const App=()=>{
   // }
   return (
   <>
-  <Wishing/>
+  <Form/>
+  {/* <Arraymap/> */}
+  {/* <Wishing/> */}
   {/* <CondComp/> */}
   {/* <Practice2/> */}
   {/* <Generatepass/> */}
