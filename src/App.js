@@ -13,7 +13,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 // import CondComp from "./components/condComp"
 // import Wishing from "./components/wish_acc";
 // import Arraymap from "./components/arraymap";
-import Form from "./components/form_";
+// import Form from "./components/form_";
+import SLOTM from "./components/slot_machine_game"
+import Awesome from "./components/awesomeapp";
 
 const App=()=>{
 
@@ -24,7 +26,18 @@ const App=()=>{
   // }
   return (
   <>
-  <Form/>
+        <h1><center>✨welcome to slot machine game✨</center></h1>
+        <div className="style">
+        <center>
+        <SLOTM x="✨" y="✨" z="✨"/>
+        <SLOTM x="✨" y="💔" z="☘️" />
+        <SLOTM x="💯" y="🥺" z="😒" />
+        </center>
+        </div>
+
+        <Awesome/>
+  
+  {/* <Form/> */}
   {/* <Arraymap/> */}
   {/* <Wishing/> */}
   {/* <CondComp/> */}

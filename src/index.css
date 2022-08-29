@@ -68,3 +68,26 @@ hr{
   background-color: azure;
   padding: 100px;
 }
+.style{
+  background-color: rgb(41, 80, 80);
+}
+
+
+.divstyle{
+  
+  background: rgb(16, 179, 157);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.buttonstyle{
+  padding: 20px 35px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
